@@ -151,11 +151,17 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
 
 */
 
-.fa-chevron-down:before{
-    content: "";
+.fa-list{
+    display: none;
+}
+
+.fa-chevron-down{   
+    display: none;
 }
 
 #nav .site-page{
+    display: flex;
+    justify-content: center;
     padding: 5px;
     margin: 3px;
     padding-left: 10px;
@@ -168,6 +174,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     box-shadow: 0 0 3px var(--lyx-theme)!important;
     border-radius: 5px;
     color: white!important;
+    transition: all 1s;
 }
 
 
