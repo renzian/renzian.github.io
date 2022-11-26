@@ -1,0 +1,321 @@
+body{
+    font-weight:600;
+    text-shadow: .5px .5px 1px black;
+    text-shadow: -0.5px -0.5px 1px black;
+    text-shadow: 0.5px -0.5px 1px black;
+    text-shadow: -0.5px 0.5px 1px black;
+}
+*::selection{
+    border-radius:10px;
+    background:black;
+    color:#ff645d;
+}
+h1,h2,h3,h4,h5,h6{
+    cursor: pointer;
+}
+h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
+    color: #f783ac;
+    text-shadow: 1px 1px 2px black;
+    transition: all 1s;
+    transform: translate(16px);
+}
+#font{
+    color:red;
+    font-weight:700;
+}
+
+/*************************/
+
+/* 
+
+出错的地方 
+
+*/
+
+#article-container img{
+    width: 100%;/* 文章图片大小超出范围 */
+    box-shadow: 0 0 3px black;
+}
+
+/*************************/
+
+/* 
+
+页面美化
+
+*/
+
+.layout{
+    max-width: 94%;  /* layout宽度 */
+}
+
+#footer-wrap{
+    padding: 0;
+}
+
+/*************************/
+
+
+/* 
+
+搜索栏 
+
+*/
+ 
+#local-search .search-dialog .local-search-box input{
+    border-radius: 6px; /* 搜索栏输入框的边框更改 */ 
+}
+
+
+/*************************/
+
+
+/* 
+
+导航栏居中 
+
+*/
+
+#nav-right{
+    flex:1 1 auto;
+    justify-content: flex-end;
+    margin-left: auto;
+    display: flex;
+    flex-wrap:nowrap;
+}
+
+#nav *::after{
+    background-color: transparent!important;
+}
+
+/* 
+
+导航栏美化
+
+*/
+.fa-list-squares:before, .fa-list:before{
+    content: "";
+}
+
+.fa-chevron-down:before{
+    content: "";
+}
+
+#nav .site-page{
+    font-size: 2.0;
+}
+
+/* #nav .site-page:hover{
+    position: absolute;
+    width: 80%;
+    
+} */
+
+
+/*************************/
+
+
+/* 
+
+修改友链一行显示多个链接 
+
+*/
+
+.flink-list-item{
+    width:calc(100% / 4 - 15px)!important;
+}
+@media screen and (max-width: 1250px) {
+    .flink-list-item{
+        width:calc(100% / 3 - 15px)!important;
+    }
+}
+
+/*************************/
+
+/* 
+
+修改文章卡片排布
+
+*/
+@media screen and (min-width: 1200px) {
+    #recent-posts{
+        margin-top:-1rem;  /*头部为空时抵消间隔，若有磁贴或日历请注释掉该行*/
+        align-content:flex-start;
+        display: flex;
+        flex-wrap: wrap; /*规定灵活的项目在必要的时候拆行或拆列。*/
+        justify-content: space-between; /*。*/
+    }
+    #recent-posts > .recent-post-item {
+      /*max-height:324px;*/  /*文章容器最大高度*/
+      margin-top: 1rem; /*最小间距*/
+      display: inline-block;
+      height:auto; /*高度自动*/
+      width:49%;/*文章容器容器宽度*/
+    }
+    #recent-posts > .recent-post-item .post_cover {
+      width: 100%; /*图片封面宽度*/
+        height: 200px;/*图片封面高度*/
+    }
+    #recent-posts > .recent-post-item .post_cover img.post_bg {
+      width: 100%;/*图片宽度*/
+      height: 100%;/*图片高度*/
+    }
+    #recent-posts > .recent-post-item {
+  
+      -webkit-flex-direction: column; /*容器内部纵向排列*/
+      -ms-flex-direction: column; /*容器内部纵向排列*/
+      flex-direction: column; /*容器内部纵向排列*/
+  
+    }
+    #recent-posts > .recent-post-item .left_radius {
+        border-radius: 8px 8px 0 0;/*圆角修改*/
+    }
+    #recent-posts > .recent-post-item .right_radius {
+        border-radius: 8px 8px 0 0;/*圆角修改*/
+    }
+    .recent-post-item{
+        height:auto !important;/*容器高度自动*/
+    }
+  
+    .recent-post-info {
+  
+      padding: 0 40px;/*容器内部文字左右间距*/
+      margin-top: 1em;/*容器内部文字上间距*/
+      width: 100%!important;/*容器宽度*/
+    }
+    #recent-posts > .recent-post-item > .recent-post-info > .article-title {
+        -webkit-line-clamp: 1;/*控制标题的行数*/
+        margin-top: 0.3rem; /*控制标题的上间距*/
+        margin-bottom: 0.3rem;/*控制标题的下间距*/
+        font-size: 1.2em; /*控制标题的字体大小*/
+        line-height: 1.4;/*控制标题的行高*/
+   
+    }
+    #recent-posts > .recent-post-item >.recent-post-info > .article-meta-wrap {
+        margin-bottom: 1rem;/*控制标题meta信息的底部间距*/
+    }
+}
+
+/*************************/
+ 
+
+/* 
+
+顶栏常驻 
+
+*/
+
+.nav-fixed #nav{
+    transform: translateY(58px)!important;
+    -webkit-transform: translateY(58px)!important;
+    -moz-transform: translateY(58px)!important;
+    -ms-transform: translateY(58px)!important;
+    -o-transform: translateY(58px)!important;
+}
+#nav{
+    transition: none!important;
+    -webkit-transition: none!important;
+    -moz-transition: none!important;
+    -ms-transition: none!important;
+    -o-transition: none!important;
+}
+
+/*************************/
+
+/* 
+
+子菜单横向布局
+
+*/
+
+.menus_item_child li:not(#sidebar-menus li){
+    float: left;
+    border-radius: 6px!important;
+    -webkit-border-radius: 6px!important;
+    -moz-border-radius: 6px!important;
+    -ms-border-radius: 6px!important;
+    -o-border-radius: 6px!important;
+}
+.menus_item_child:not(#sidebar-menus ul){
+  /*
+    left:calc(-150%)!important;这是估算值，为了保持元素居中的，如果不合适可以自己调
+  改为：*/
+  left:50%;
+  translate:-50%;
+}
+
+/*************************/
+
+
+/* 
+
+鼠标指针 
+
+*/
+
+#cursor {
+    position: fixed;
+    width: 16px;
+    height: 16px;
+    background: #a61e4d;
+    /* background: url(/src/images/All/cursor.png) no-repeat; */
+    background-size: cover;
+    border-radius: 10px;
+    transform: scale(1.6);
+    opacity: 0.3;
+    z-index: 10086;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    transition-property: background, opacity, transform;
+    /* transform: rotate(45deg); */
+}
+
+/* #cursor::after,#cursor::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #a61e4d;
+    border-radius: 50%;
+}
+#cursor::after{
+    top: -50%;
+    transform: rotate(45deg);
+
+}
+#cursor::before{
+    left: -50%;
+} */
+
+#cursor.hidden {
+    opacity: 0;
+}
+
+#cursor.hover {
+    opacity: 0.1;
+    transform: scale(2.5);
+}
+
+#cursor.active {
+    opacity: 0.5;
+    transform: scale(0.5);
+}
+
+a {
+    color: rgb(0, 93, 146);
+    opacity: .7;
+    transition: opacity .2s;
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 1;
+}
+
+#clickME {
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #000;
+}
+
+/*************************/
