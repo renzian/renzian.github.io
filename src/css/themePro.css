@@ -24,6 +24,63 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     font-weight:700;
 }
 
+:root{
+    --lyx-theme:#ed709b; /*我的主题色*/
+    --heo-theme: #425AEF;
+    --heo-theme-op: #4259ef23;
+    --heo-blue: #425AEF;
+    --heo-red: #D8213C;
+    --heo-pink: #FF7C7C;
+    --heo-green: #28a63f;
+    --heo-yellow: #d99c00;
+    --heo-orange: #e38100;
+    --heo-fontcolor: #363636;
+    --heo-background: #f7f9fe;
+    --heo-reverse: var(--lyx-black);
+    --heo-maskbg: rgba(255, 255, 255, 0.6);
+    --heo-maskbgdeep: rgba(255, 255, 255, 0.85);
+    --heo-hovertext: var(--heo-main);
+    --heo-ahoverbg: #F7F7FA;
+    --heo-lighttext: var(--heo-main);
+    --heo-secondtext: rgba(60, 60, 67, 0.6);
+    --heo-scrollbar: rgba(60, 60, 67, 0.4);
+    --heo-card-btn-bg: #edf0f7;
+    --heo-post-blockquote-bg: #fafcff;
+    --heo-post-tabs-bg: #f2f5f8;
+    --heo-secondbg: #f1f3f8;
+    --heo-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
+    --heo-card-bg: var(--lyx-white);
+    --heo-card-bg-op: var(--heo-black-op);
+    --heo-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
+    --heo-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
+    --heo-card-border: #e3e8f7;
+    --heo-shadow-border: 0 8px 16px -4px #2c2d300c;
+    --style-border-forever: 2px solid var(--heo-main);
+    --lyx-border: #c9c9c9;
+    --lyx-blue: #6cf;
+    --lyx-gray: #e2e2e2;
+    --lyx-theme: var(--lyx-blue);
+    --lyx-green: #39c5bb;
+    --lyx-black-acrylic1: #0008;
+    --lyx-black-acrylic2: #000a;
+    --lyx-black-acrylic3: #00000099;
+    --lyx-black: black;
+    --lyx-white: white;
+    --lyx-white-acrylic1: #fffd;
+    --lyx-white-acrylic2: #fffa;
+    --lyx-blackgray: #797979;
+    --lyx-0: #0000;
+    --lyx-scrollbar: #acacacDD;
+    --lyx-whitegray: #f1f1f1;
+    --lyx-red: rgb(241, 71, 71);
+    --lyx-orange: rgb(241, 162, 71);
+    --lyx-yellow: rgb(241, 238, 71);
+    --lyx-purple: rgb(179, 71, 241);
+    --lyx-pink: #ed709b;
+    --lyx-heoblue: #425aef;
+    --lyx-darkblue: #61649f;
+}
+
 /*************************/
 
 /* 
@@ -93,23 +150,25 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
 导航栏美化
 
 */
-.fa-list-squares:before, .fa-list:before{
-    content: "";
-}
 
 .fa-chevron-down:before{
     content: "";
 }
 
 #nav .site-page{
-    font-size: 2.0;
+    padding: 5px;
+    margin: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
 }
 
-/* #nav .site-page:hover{
-    position: absolute;
-    width: 80%;
-    
-} */
+#nav .site-page:hover{
+    background-color: var(--lyx-theme);
+    box-shadow: 0 0 3px var(--lyx-theme)!important;
+    border-radius: 5px;
+    color: white!important;
+}
 
 
 /*************************/
