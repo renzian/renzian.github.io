@@ -113,7 +113,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     padding: 0;
 }
 
-.card-widget,.recent-post-item{
+.card-widget,.recent-post-item,#post{
     box-shadow: none;
     -webkit-box-shadow: none;
     border-radius: 12px;
@@ -122,7 +122,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     backdrop-filter: none!important;
 }
 
-.card-widget:hover,.recent-post-item:hover{
+.card-widget:hover,.recent-post-item:hover,#post:hover{
     border: 1px solid var(--lyx-theme)!important;
     box-shadow: 0 0 4px var(--lyx-theme)!important;
 }
@@ -173,7 +173,17 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     color: rgb(200, 200, 200) !important;
 }
  
-/*==================================================导航栏居中===============================================*/
+
+#aside-content #card-toc .toc-content .toc-link.active{
+    background: var(--lyx-theme);
+    border-radius: 4px;
+    border: 3px solid var(--lyx-theme)!important;
+    box-shadow: 0 0 4px var(--lyx-theme)!important;
+}
+
+
+                                      
+/*==================================================导航栏美化===============================================*/
 
 
 #nav-right{
@@ -187,11 +197,6 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
 #nav *::after{
     background-color: transparent!important;
 }
-
-                                      
-/*==================================================导航栏美化===============================================*/
-
-
 
 .fa-list{
     display: none;
@@ -270,6 +275,61 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
 :root{
     --lyx-theme:#ed709b /*我的主题色*/
 }
+
+
+/* 更好的导航栏 */
+
+/*
+2022.10.4更新：
+根据我发现的没有自适应，间距不合理问题进行调整，如果用了这个的朋友们建议改一改
+*/
+#page-name::before{
+    font-size:18px;
+    position: absolute;
+    width:100%;
+    height:100%;
+    border-radius: 8px;
+    color:white!important;
+    top:0;
+    left:0;
+    content:'回到顶部';
+    background-color: var(--lyx-theme);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+    opacity: 0;
+    box-shadow: 0 0 3px var(--lyx-theme);
+    line-height: 45px; /*如果垂直位置不居中可以微调此值，也可以删了*/
+}
+#page-name:hover:before{
+    opacity: 1;
+}
+@media screen and (max-width:900px){
+    #page-name,#menus{
+      display:none!important;
+    }
+}
+
+#name-container{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+#name-container:hover{
+    scale:1.03
+}
+#page-name{
+    position: relative;
+    padding:10px 30px/*如果文字间隔不合理可以微调修改，第二个是水平方向的padding，第一个是垂直的*/
+}
+#nav{
+    padding: 0 20px;
+}
+
 
 
 /*==================================================修改友链一行显示多个链接===============================================*/
