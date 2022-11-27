@@ -96,6 +96,28 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
 
 /*==================================================页面美化===============================================*/
 
+#aside-content .card-archives ul.card-archive-list > .card-archive-list-item a:hover, #aside-content .card-categories ul.card-category-list > .card-category-list-item a:hover{
+    border-radius: 4px;
+    background-color: var(--lyx-theme);
+    border: 1px solid var(--lyx-theme)!important;
+    box-shadow: 0 0 2px var(--lyx-theme)!important;
+}
+
+#aside-content .card-tag-cloud a{
+    margin: 6px;
+    border: 1px solid rgb(185, 185, 185);
+    padding: 4px !important;
+    border-radius: 6px;
+    background-color: rgb(219, 219, 219);
+}
+
+#aside-content .card-tag-cloud a:hover{
+    background-color: var(--lyx-theme);
+    color: #fff !important;
+    border: 1px solid var(--lyx-theme)!important;
+    box-shadow: 0 0 2px var(--lyx-theme)!important;
+}
+
 .entered{
     border-radius: 5px; /* 最新文章 图片圆角 */
 } 
