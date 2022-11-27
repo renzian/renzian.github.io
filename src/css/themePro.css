@@ -124,7 +124,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
 
 .card-widget:hover,.recent-post-item:hover,#post:hover{
     border: 1px solid var(--lyx-theme)!important;
-    box-shadow: 0 0 4px var(--lyx-theme)!important;
+    box-shadow: 0 0 2px var(--lyx-theme)!important;
 }
 
 
