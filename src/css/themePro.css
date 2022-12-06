@@ -99,6 +99,8 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     box-shadow: 0 0 3px var(--lyx-theme)!important;
 }
 
+
+
 #aside-content .card-tag-cloud a{
     margin: 6px;
     border: 1px solid rgb(185, 185, 185);
@@ -131,18 +133,20 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     padding: 0;
 }
 
+#post{
+    box-shadow: var(--card-box-shadow)!important;
+}
+
 .card-widget,.recent-post-item,#post{
     box-shadow: none;
     -webkit-box-shadow: none;
     border-radius: 12px;
-    /*border: 1px solid var(--lyx-border);*/
-    transition: all 0.8s;
+    transition: all 0.6s;
     backdrop-filter: none!important;
 }
 
 .card-widget:hover,.recent-post-item:hover,#post:hover{
-    /*border: 1px solid var(--lyx-theme)!important;*/
-    box-shadow: 0 0 3px var(--lyx-theme)!important;
+    box-shadow: 0 0 4px var(--lyx-theme)!important;
 }
 
 
