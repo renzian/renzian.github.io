@@ -4,31 +4,6 @@
   
     
     <entry>
-      <title>Eclipse的使用</title>
-      <link href="/2022/11/14/Eclipse-use/"/>
-      <url>/2022/11/14/Eclipse-use/</url>
-      
-        <content type="html"><![CDATA[<h2 id="Eclipse-下载"><a href="#Eclipse-下载" class="headerlink" title="Eclipse 下载"></a>Eclipse 下载</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><!-- > [官方版本下载](https://mirrors.neusoft.edu.cn/eclipse/technology/epp/downloads/release/2022-09/R/eclipse-jee-2022-09-R-win32-x86_64.zip) --><blockquote><p>并非最新版本</p></blockquote><h2 id="Eclipse使用技巧"><a href="#Eclipse使用技巧" class="headerlink" title="Eclipse使用技巧"></a>Eclipse使用技巧</h2><h3 id="java代码提示"><a href="#java代码提示" class="headerlink" title="java代码提示"></a>java代码提示</h3><blockquote><p>打开Eclipse，在菜单栏里找到window</p></blockquote><p> <img src="/src/images/Article/Eclipse/20221120220325.png" alt="20221120220325"></p><blockquote><p>在window里找到Preferences</p></blockquote><p> <img src="/src/images/Article/Eclipse/20221120220826.png" alt="20221120220826"></p><blockquote><p>然后在“Preferences”列表中,进入Java &gt; Editor &gt; Content Assist</p></blockquote><p> <img src="/src/images/Article/Eclipse/20221120221537.png"></p><blockquote><p><font id="font">[Auto activation triggers for Java]</font>自动补全触发器,默认值是”.”</p></blockquote><blockquote><p>将值改为：</p></blockquote><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x27;.<span class="tag">&lt;&gt;</span>&#x27;：.<span class="tag">&lt;&gt;</span>abcdefghijklmnopqrstuvwxyz1234567890</span><br></pre></td></tr></table></figure><blockquote><p><font id="font">[Auto activation delay(ms)]</font>自动补全延迟的时间,默认是2ms,可以根据自己的习惯设置,讲时间缩短一些</p></blockquote>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Eclipse </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>算法</title>
       <link href="/2022/11/14/Algorithm/"/>
       <url>/2022/11/14/Algorithm/</url>
@@ -46,6 +21,31 @@
         <tags>
             
             <tag> Alogrithm </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Eclipse的使用</title>
+      <link href="/2022/11/14/Eclipse-use/"/>
+      <url>/2022/11/14/Eclipse-use/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Eclipse-下载"><a href="#Eclipse-下载" class="headerlink" title="Eclipse 下载"></a>Eclipse 下载</h2><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><!-- > [官方版本下载](https://mirrors.neusoft.edu.cn/eclipse/technology/epp/downloads/release/2022-09/R/eclipse-jee-2022-09-R-win32-x86_64.zip) --><blockquote><p>并非最新版本</p></blockquote><h2 id="Eclipse使用技巧"><a href="#Eclipse使用技巧" class="headerlink" title="Eclipse使用技巧"></a>Eclipse使用技巧</h2><h3 id="java代码提示"><a href="#java代码提示" class="headerlink" title="java代码提示"></a>java代码提示</h3><blockquote><p>打开Eclipse，在菜单栏里找到window</p></blockquote><p> <img src="/src/images/Article/Eclipse/20221120220325.png" alt="20221120220325"></p><blockquote><p>在window里找到Preferences</p></blockquote><p> <img src="/src/images/Article/Eclipse/20221120220826.png" alt="20221120220826"></p><blockquote><p>然后在“Preferences”列表中,进入Java &gt; Editor &gt; Content Assist</p></blockquote><p> <img src="/src/images/Article/Eclipse/20221120221537.png"></p><blockquote><p><font id="font">[Auto activation triggers for Java]</font>自动补全触发器,默认值是”.”</p></blockquote><blockquote><p>将值改为：</p></blockquote><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#x27;.<span class="tag">&lt;&gt;</span>&#x27;：.<span class="tag">&lt;&gt;</span>abcdefghijklmnopqrstuvwxyz1234567890</span><br></pre></td></tr></table></figure><blockquote><p><font id="font">[Auto activation delay(ms)]</font>自动补全延迟的时间,默认是2ms,可以根据自己的习惯设置,讲时间缩短一些</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Eclipse </tag>
             
         </tags>
       
