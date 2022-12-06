@@ -39,9 +39,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     --heo-reverse: var(--lyx-black);
     --heo-maskbg: rgba(255, 255, 255, 0.6);
     --heo-maskbgdeep: rgba(255, 255, 255, 0.85);
-    --heo-hovertext: var(--heo-main);
     --heo-ahoverbg: #F7F7FA;
-    --heo-lighttext: var(--heo-main);
     --heo-secondtext: rgba(60, 60, 67, 0.6);
     --heo-scrollbar: rgba(60, 60, 67, 0.4);
     --heo-card-btn-bg: #edf0f7;
@@ -50,12 +48,10 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     --heo-secondbg: #f1f3f8;
     --heo-shadow-nav: 0 5px 12px -5px rgba(102, 68, 68, 0.05);
     --heo-card-bg: var(--lyx-white);
-    --heo-card-bg-op: var(--heo-black-op);
     --heo-shadow-lightblack: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
     --heo-shadow-light2black: 0 5px 12px -5px rgba(102, 68, 68, 0.00);
     --heo-card-border: #e3e8f7;
     --heo-shadow-border: 0 8px 16px -4px #2c2d300c;
-    --style-border-forever: 2px solid var(--heo-main);
     --lyx-border: #c9c9c9;
     --lyx-blue: #6cf;
     --lyx-gray: #e2e2e2;
@@ -100,7 +96,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     border-radius: 4px;
     background-color: var(--lyx-theme);
     border: 1px solid var(--lyx-theme)!important;
-    box-shadow: 0 0 2px var(--lyx-theme)!important;
+    box-shadow: 0 0 3px var(--lyx-theme)!important;
 }
 
 #aside-content .card-tag-cloud a{
@@ -115,7 +111,7 @@ h1:hover,h2:hover,h3:hover,h4:hover,h5:hover,h6:hover{
     background-color: var(--lyx-theme);
     color: #fff !important;
     border: 1px solid var(--lyx-theme)!important;
-    box-shadow: 0 0 2px var(--lyx-theme)!important;
+    box-shadow: 0 0 3px var(--lyx-theme)!important;
 }
 
 .entered{
@@ -871,4 +867,13 @@ input[name="colors"]{
 .swf:hover{
     border: 1px solid var(--lyx-theme)!important;
     box-shadow: 0 0 4px var(--lyx-theme)!important;
+}
+
+/*=======================================Footer================================================*/
+
+#footer-wrap{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
 }
