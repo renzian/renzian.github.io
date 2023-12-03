@@ -1,10 +1,10 @@
-/*#nav #menus .menus_item > a {*/
-/*    border-radius: 8px;*/
-/*}*/
-/*#nav .menus_items .menus_item:hover .menus_item_child {*/
-/*    border-radius: 10px;*/
-/*    border-width: 2px;*/
-/*}*/
-/*#page-header.not-top-img #nav #menus a {*/
-/*    border-radius: 8px;*/
-/*}*/
+#page-header #nav #menus .menus_item > a {
+    border-radius: 8px;
+}
+#page-header #nav .menus_items .menus_item:hover .menus_item_child {
+    border-radius: 10px;
+    border-width: 2px;
+}
+#page-header #nav #menus a {
+    border-radius: 8px;
+}
