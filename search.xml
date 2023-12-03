@@ -54,31 +54,6 @@
     
     
     <entry>
-      <title>IntelliJ IDEA</title>
-      <link href="/2022/11/10/IDEA/"/>
-      <url>/2022/11/10/IDEA/</url>
-      
-        <content type="html"><![CDATA[<h2 id="IDEA下载地址（官网）"><a href="#IDEA下载地址（官网）" class="headerlink" title="IDEA下载地址（官网）"></a>IDEA下载地址（官网）</h2><p><img src="/src/img/pages/Article/IDEA/2022111007.jpg" alt="2022111007"></p><blockquote><p><a href="https://download.jetbrains.com/idea/ideaIU-2021.2.exe">IDEA官方地址</a>    可试用的最新版本</p></blockquote><h2 id="激活-破解IDEA"><a href="#激活-破解IDEA" class="headerlink" title="激活 破解IDEA"></a>激活 破解IDEA</h2><blockquote><p>免费试用</p></blockquote><p><img src="/src/img/pages/Article/IDEA/2022111001.jpg" alt="2022111001"></p><blockquote><p>无限使用脚本<br><a href="/src/file/ide-eval-resetter-2.2.3.jar">ide-eval-resetter-2.2.3</a><br>下载之后，直接将文件拖到<font id="font">IDEA</font>代码窗口里，之后重启IDEA</p></blockquote><p><img src="/src/img/pages/Article/IDEA/2022111002.jpg" alt="2022111002"></p><blockquote><p>找到<font id="font">Help</font>里的 <font id="font"> Eval  Reset </font></p></blockquote><p> <img src="/src/img/pages/Article/IDEA/2022111003.jpg" alt="2022111003"></p><blockquote><p>1.勾选<strong>Auto reset before per restart</strong>：每次重启&#x2F;退出IDE时会自动重置试用信息<br>2.点击<strong>Reload</strong>按钮：用来刷新界面上的显示信息<br>3.点击<strong>Reset</strong>：点击会询问是否重置试用30天并重启IDE</p></blockquote><h2 id="重置试用权限"><a href="#重置试用权限" class="headerlink" title="重置试用权限"></a>重置试用权限</h2><blockquote><p>如果上面的脚本失效，或者因为其他原因试用时间到期<br><a href="/src/file/reset_jetbrains_eval_windows.vbs">reset_jetbrains_eval_windows</a><br>这个脚本可以重置试用权限</p></blockquote><h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><blockquote><p>以上两个脚本适用于</p></blockquote><table><thead><tr><th>应用产品</th><th>版本</th></tr></thead><tbody><tr><td>Rider</td><td>2020.2.1</td></tr><tr><td>IDEA</td><td>2021.2</td></tr><tr><td>PyCharm</td><td>2021.1.3</td></tr><tr><td>Clion</td><td>2020.3.4</td></tr><tr><td>Android Studio</td><td>*</td></tr></tbody></table><blockquote><p>该版本只是作者可使用的，并非最新的版本(<strong>仅供参考</strong>)</p></blockquote><style>#code{    position:relative;    background-color: black;    color: white;    font-size: 20px;    font-weight:700;} #font{    color:red;    font-weight:700;}</style>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> IDEA </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Hexo 外挂标签</title>
       <link href="/2022/11/10/LiinkCard/"/>
       <url>/2022/11/10/LiinkCard/</url>
@@ -96,6 +71,31 @@
         <tags>
             
             <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>IntelliJ IDEA</title>
+      <link href="/2022/11/10/IDEA/"/>
+      <url>/2022/11/10/IDEA/</url>
+      
+        <content type="html"><![CDATA[<h2 id="IDEA下载地址（官网）"><a href="#IDEA下载地址（官网）" class="headerlink" title="IDEA下载地址（官网）"></a>IDEA下载地址（官网）</h2><p><img src="/src/img/pages/Article/IDEA/2022111007.jpg" alt="2022111007"></p><blockquote><p><a href="https://download.jetbrains.com/idea/ideaIU-2021.2.exe">IDEA官方地址</a>    可试用的最新版本</p></blockquote><h2 id="激活-破解IDEA"><a href="#激活-破解IDEA" class="headerlink" title="激活 破解IDEA"></a>激活 破解IDEA</h2><blockquote><p>免费试用</p></blockquote><p><img src="/src/img/pages/Article/IDEA/2022111001.jpg" alt="2022111001"></p><blockquote><p>无限使用脚本<br><a href="/src/file/ide-eval-resetter-2.2.3.jar">ide-eval-resetter-2.2.3</a><br>下载之后，直接将文件拖到<font id="font">IDEA</font>代码窗口里，之后重启IDEA</p></blockquote><p><img src="/src/img/pages/Article/IDEA/2022111002.jpg" alt="2022111002"></p><blockquote><p>找到<font id="font">Help</font>里的 <font id="font"> Eval  Reset </font></p></blockquote><p> <img src="/src/img/pages/Article/IDEA/2022111003.jpg" alt="2022111003"></p><blockquote><p>1.勾选<strong>Auto reset before per restart</strong>：每次重启&#x2F;退出IDE时会自动重置试用信息<br>2.点击<strong>Reload</strong>按钮：用来刷新界面上的显示信息<br>3.点击<strong>Reset</strong>：点击会询问是否重置试用30天并重启IDE</p></blockquote><h2 id="重置试用权限"><a href="#重置试用权限" class="headerlink" title="重置试用权限"></a>重置试用权限</h2><blockquote><p>如果上面的脚本失效，或者因为其他原因试用时间到期<br><a href="/src/file/reset_jetbrains_eval_windows.vbs">reset_jetbrains_eval_windows</a><br>这个脚本可以重置试用权限</p></blockquote><h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><blockquote><p>以上两个脚本适用于</p></blockquote><table><thead><tr><th>应用产品</th><th>版本</th></tr></thead><tbody><tr><td>Rider</td><td>2020.2.1</td></tr><tr><td>IDEA</td><td>2021.2</td></tr><tr><td>PyCharm</td><td>2021.1.3</td></tr><tr><td>Clion</td><td>2020.3.4</td></tr><tr><td>Android Studio</td><td>*</td></tr></tbody></table><blockquote><p>该版本只是作者可使用的，并非最新的版本(<strong>仅供参考</strong>)</p></blockquote><style>#code{    position:relative;    background-color: black;    color: white;    font-size: 20px;    font-weight:700;} #font{    color:red;    font-weight:700;}</style>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> IDEA </tag>
             
         </tags>
       
