@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>c++</title>
+      <link href="/2024/10/04/c++/"/>
+      <url>/2024/10/04/c++/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> C/C++ </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>安知鱼主题标签 Tag Plugins</title>
       <link href="/2023/06/01/anzhiyu%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE/"/>
       <url>/2023/06/01/anzhiyu%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE/</url>
@@ -17,56 +42,6 @@
             <tag> Tag Plugins </tag>
             
             <tag> Hexo </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>JavaScript</title>
-      <link href="/2022/11/14/Vue/"/>
-      <url>/2022/11/14/Vue/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> JavaScript </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>学习资源</title>
-      <link href="/2022/11/11/AInavigation/"/>
-      <url>/2022/11/11/AInavigation/</url>
-      
-        <content type="html"><![CDATA[<h1 id="AI工具"><a href="#AI工具" class="headerlink" title="AI工具"></a>AI工具</h1><div class="note default modern"><p>AI相关的工具集</p></div><h2 id="AI合集"><a href="#AI合集" class="headerlink" title="AI合集"></a>AI合集</h2><table><thead><tr><th>名称</th><th>网站</th><th>描述</th></tr></thead><tbody><tr><td>潮点AI导航</td><td><a href="https://aichaodian.com/">https://aichaodian.com/</a></td><td></td></tr><tr><td>AIGC工具导航</td><td><a href="https://www.aigc.cn/">https://www.aigc.cn/</a></td><td></td></tr><tr><td>AI工具集</td><td><a href="https://ai-bot.cn/">https://ai-bot.cn/</a></td><td></td></tr><tr><td>图钉AI导航</td><td><a href="https://ai.tboxn.com/">https://ai.tboxn.com/</a></td><td></td></tr><tr><td>一起用AI</td><td><a href="https://17yongai.com/bulletin">https://17yongai.com/bulletin</a></td><td></td></tr><tr><td>Navi Al导航</td><td><a href="https://www.naviai.cn/">https://www.naviai.cn/</a></td><td></td></tr><tr><td>AI大师</td><td><a href="https://www.aidashi.cn/">https://www.aidashi.cn/</a></td><td></td></tr></tbody></table><h2 id="AI视频"><a href="#AI视频" class="headerlink" title="AI视频"></a>AI视频</h2><table><thead><tr><th>名称</th><th>网址</th><th>描述</th></tr></thead><tbody><tr><td>Runway</td><td><a href="https://runwayml.com/">https://runwayml.com/</a></td><td>AI视频生成</td></tr><tr><td>Genmo</td><td><a href="https://www.genmo.ai/">https://www.genmo.ai/</a></td><td>编辑图像视频</td></tr><tr><td>Movio</td><td><a href="https://www.movio.co/">https://www.movio.co/</a></td><td>AI生成真人视频</td></tr><tr><td>Unscreen</td><td><a href="https://www.unscreen.com/">https://www.unscreen.com/</a></td><td>去视频背景</td></tr><tr><td>腾讯智影</td><td><a href="https://zenvideo.qq.com/">https://zenvideo.qq.com/</a></td><td>AI智能创作工具</td></tr><tr><td>Wonder Studio</td><td><a href="https://wonderdynamics.com/">https://wonderdynamics.com/</a></td><td>真人视频转化CG</td></tr></tbody></table><h2 id="AI音频"><a href="#AI音频" class="headerlink" title="AI音频"></a>AI音频</h2><table><thead><tr><th>名称</th><th>网址</th><th>描述</th></tr></thead><tbody><tr><td>Speaking AI</td><td><a href="https://speaking.ai/">https://speaking.ai/</a></td><td>克隆任何人的声音</td></tr></tbody></table><h2 id="AI写作"><a href="#AI写作" class="headerlink" title="AI写作"></a>AI写作</h2><table><thead><tr><th>名称</th><th>网址</th><th>描述</th></tr></thead><tbody><tr><td>iThinkScene</td><td><a href="https://app.ithinkai.world/">https://app.ithinkai.world/</a></td><td>快速生成小红书图文、视频脚本、公务文案等</td></tr></tbody></table>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> resource </tag>
             
         </tags>
       
@@ -92,56 +67,6 @@
         <tags>
             
             <tag> CSS </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Java</title>
-      <link href="/2022/11/11/Java/"/>
-      <url>/2022/11/11/Java/</url>
-      
-        <content type="html"><![CDATA[<h1 id="Java程序结构"><a href="#Java程序结构" class="headerlink" title="Java程序结构"></a>Java程序结构</h1><ul><li>project(项目，工程)</li><li>module(模块)</li><li>package(包)</li><li>class(类)</li></ul><div class="tip "><p>project -&gt; module -&gt; package -&gt; class</p></div><div class="tip "></div>]]></content>
-      
-      
-      <categories>
-          
-          <category> 后端 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Java </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>IntelliJ IDEA</title>
-      <link href="/2022/11/10/IDEA/"/>
-      <url>/2022/11/10/IDEA/</url>
-      
-        <content type="html"><![CDATA[<h2 id="IDEA下载地址（官网）"><a href="#IDEA下载地址（官网）" class="headerlink" title="IDEA下载地址（官网）"></a>IDEA下载地址（官网）</h2><p><img src="/src/img/pages/Article/IDEA/2022111007.jpg" alt="2022111007"></p><blockquote><p><a href="https://download.jetbrains.com/idea/ideaIU-2021.2.exe">IDEA官方地址</a>    可试用的最新版本</p></blockquote><h2 id="激活-破解IDEA"><a href="#激活-破解IDEA" class="headerlink" title="激活 破解IDEA"></a>激活 破解IDEA</h2><blockquote><p>免费试用</p></blockquote><p><img src="/src/img/pages/Article/IDEA/2022111001.jpg" alt="2022111001"></p><blockquote><p>无限使用脚本<br><a href="/src/file/ide-eval-resetter-2.2.3.jar">ide-eval-resetter-2.2.3</a><br>下载之后，直接将文件拖到<font id="font">IDEA</font>代码窗口里，之后重启IDEA</p></blockquote><p><img src="/src/img/pages/Article/IDEA/2022111002.jpg" alt="2022111002"></p><blockquote><p>找到<font id="font">Help</font>里的 <font id="font"> Eval  Reset </font></p></blockquote><p> <img src="/src/img/pages/Article/IDEA/2022111003.jpg" alt="2022111003"></p><blockquote><p>1.勾选<strong>Auto reset before per restart</strong>：每次重启&#x2F;退出IDE时会自动重置试用信息<br>2.点击<strong>Reload</strong>按钮：用来刷新界面上的显示信息<br>3.点击<strong>Reset</strong>：点击会询问是否重置试用30天并重启IDE</p></blockquote><h2 id="重置试用权限"><a href="#重置试用权限" class="headerlink" title="重置试用权限"></a>重置试用权限</h2><blockquote><p>如果上面的脚本失效，或者因为其他原因试用时间到期<br><a href="/src/file/reset_jetbrains_eval_windows.vbs">reset_jetbrains_eval_windows</a><br>这个脚本可以重置试用权限</p></blockquote><h2 id="适用范围"><a href="#适用范围" class="headerlink" title="适用范围"></a>适用范围</h2><blockquote><p>以上两个脚本适用于</p></blockquote><table><thead><tr><th>应用产品</th><th>版本</th></tr></thead><tbody><tr><td>Rider</td><td>2020.2.1</td></tr><tr><td>IDEA</td><td>2021.2</td></tr><tr><td>PyCharm</td><td>2021.1.3</td></tr><tr><td>Clion</td><td>2020.3.4</td></tr><tr><td>Android Studio</td><td>*</td></tr></tbody></table><blockquote><p>该版本只是作者可使用的，并非最新的版本(<strong>仅供参考</strong>)</p></blockquote><style>#code{    position:relative;    background-color: black;    color: white;    font-size: 20px;    font-weight:700;} #font{    color:red;    font-weight:700;}</style>]]></content>
-      
-      
-      <categories>
-          
-          <category> 工具 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> IDEA </tag>
             
         </tags>
       
