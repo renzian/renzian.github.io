@@ -8,3 +8,30 @@
 #page-header #nav #menus a {
     border-radius: 8px;
 }
+
+.prev-post,.next-post{
+    border-width: 6px !important;
+    border-style: solid !important;
+    border-color: var(--anzhiyu-white) !important ;
+
+}
+
+ {
+
+}
+
+
+.prev-post:hover,.next-post:hover {
+    border-width: 6px !important;
+    border-style: solid !important;
+    border-color: var(--anzhiyu-theme) !important ;
+}
+.prev-post a {
+    border-radius: 12px 0 12px 0 !important;
+}
+.next-post a{
+    border-radius: 0 12px 0 12px !important;
+}
+·pagination-post {
+    border-radius: 12px !important;
+}
