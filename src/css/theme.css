@@ -26,12 +26,18 @@
     border-style: solid !important;
     border-color: var(--anzhiyu-theme) !important ;
 }
-.prev-post a {
-    border-radius: 12px 0 12px 0 !important;
+.prev-post a{
+    border-radius: 12px!important;
 }
 .next-post a{
-    border-radius: 0 12px 0 12px !important;
+    border-radius: 12px!important;
+}
+.prev-post a img{
+    border-radius: 12px!important;
+}
+.next-post a img{
+    border-radius: 12px!important;
 }
 ·pagination-post {
-    border-radius: 12px !important;
+    border-radius: 12px!important;
 }
